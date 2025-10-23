@@ -10,15 +10,13 @@ div {
   width: 640px;
 }
 
-input {
-  width: 100%;
-}
-
 .ue {
   background-color: #ffffff;
   margin: 12px 0;
   padding: 22px 24px 16px;
   border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px, solid, #dadce0;
 }
 
 .ka-do {
@@ -26,8 +24,34 @@ input {
   margin-bottom: 12px;
   padding: 24px;
   border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px, solid, #dadce0;
 }
 
 .need-red {
   color: #e30202;
+}
+
+.gore- {
+  font-size: 11px;
+  color: #9ea3a5;
+}
+
+.shita {
+  font-size: 12px;
+  color: #525564;
+}
+
+#todoku {
+  background-color: #673ab7;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 76px;
+  height: 36px;
+}
+
+#kuria {
+  color: #673ab7;
+  background-color: #f0ebf8;
+  border: none;
 }

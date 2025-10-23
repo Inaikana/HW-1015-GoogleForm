@@ -31,15 +31,30 @@
         <form action="#" method="post">
           <div class="ka-do">
             <label for="namae">姓名</label><span class="need-red">*</span><br />
-            <input type="text" name="namae" id="namae" required />
+            <input
+              type="text"
+              name="namae"
+              id="namae"
+              placeholder="您的回答"
+              required
+              autocomplete="off"
+            />
           </div>
           <div class="ka-do">
-            <label for="me-ru">信箱</label><br />
-            <input type="email" name="me-ru" id="me-ru" />
+            <label for="me-ru">信箱</label><span class="need-red">*</span><br />
+            <input
+              type="email"
+              name="me-ru"
+              id="me-ru"
+              placeholder="您的回答"
+              required
+              autocomplete="off"
+            />
           </div>
           <div class="ka-do">
             <label for="DJB">生日</label><br />
-            <input type="date" name="DJB" id="DJB" />
+            <p class="gore-">日期</p>
+            <input type="date" name="DJB" id="DJB" autocomplete="off" />
           </div>
           <div class="ka-do">
             <label>想跟老師說悄悄話</label><br />
@@ -49,41 +64,41 @@
             <p>喜歡的顏色</p>
             <br />
             <div>
-              <label for="kiiroi">黃</label>
               <input type="radio" name="iro" id="kiiroi" />
+              <label for="kiiroi">黃</label>
             </div>
             <div>
-              <label for="midori">綠</label>
               <input type="radio" name="iro" id="midori" />
+              <label for="midori">綠</label>
             </div>
             <div>
-              <label for="akai">紅</label>
               <input type="radio" name="iro" id="akai" />
+              <label for="akai">紅</label>
             </div>
           </div>
           <div class="ka-do">
             <p>喜歡吃的飲食類型</p>
             <br />
             <div>
-              <label for="cyuuka">中式</label>
               <input type="checkbox" name="fuu" id="cyuuka" />
+              <label for="cyuuka">中式</label>
             </div>
             <div>
-              <label for="itaria">義式</label>
               <input type="checkbox" name="fuu" id="itaria" />
+              <label for="itaria">義式</label>
               <div>
-                <label for="nihon">日式</label>
                 <input type="checkbox" name="fuu" id="nihon" />
+                <label for="nihon">日式</label>
               </div>
-              <label for="kankoku">韓式</label>
               <input type="checkbox" name="fuu" id="kankoku" />
+              <label for="kankoku">韓式</label>
             </div>
             <div>
-              <label for="rice">美式</label>
               <input type="checkbox" name="fuu" id="rice" />
+              <label for="rice">美式</label>
               <div>
-                <label for="tai">泰式</label>
                 <input type="checkbox" name="fuu" id="tai" />
+                <label for="tai">泰式</label>
               </div>
             </div>
           </div>
@@ -111,18 +126,20 @@
               <option value="家">還是在家好-3-</option>
             </select>
           </div>
-          <button type="submit">提交</button>
-          <button type="reset">清除表單</button>
+          <button id="todoku" type="submit">提交</button>
+          <button id="kuria" type="reset">清除表單</button>
         </form>
       </main>
       <footer>
-        <p>請勿利用 Google 表單送出密碼。</p>
-        <span>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。-</span
-        ><a href="#">聯絡表單擁有者</a>
+        <p class="shita">請勿利用 Google 表單送出密碼。</p>
+        <span class="shita"
+          >這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。-</span
+        ><a href="#" class="shita">聯絡表單擁有者</a>
         <br />
-        <span>這份表單很可疑嗎</span
+        <span class="shita">這份表單很可疑嗎</span
         ><a
           href="https://drive.google.com/u/0/abuse?id=AKkXjoydXWY0mgYIjdBkcdDZLucty17BSF7IBJtYLVLaa39SegSoJEHHs-07XbfRApdQoJAK6ILK0OitJ556aac:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform?usp%3Dsend_form&pli=1"
+          class="shita"
           >報告</a
         >
         <p>Google表單</p>
