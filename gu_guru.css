@@ -52,3 +52,12 @@ body {
   background-color: #f0ebf8;
   border: none;
 }
+
+#osu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid {
+  background-color: #38d14a;
+}
