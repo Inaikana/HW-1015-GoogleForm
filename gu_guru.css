@@ -59,5 +59,11 @@ body {
 }
 
 .mid {
-  background-color: #38d14a;
+  text-align: center;
+}
+
+#Google {
+  font-weight: 500;
+  font-size: 24px;
+  color: #9ea3a5;
 }
