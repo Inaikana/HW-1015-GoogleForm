@@ -83,13 +83,33 @@
           </div>
         </div>
         <div>
-          <label for="">最想去的國家 (使用 optgroup 將選項分為不同洲)</label>
+          <label for="sekai"
+            >最想去的國家 (使用 optgroup 將選項分為不同洲)</label
+          >
+          <select name="sekai" id="sekai">
+            <optgroup label="東北亞">
+              <option value="東北亞01">日本</option>
+              <option value="東北亞02">韓國</option>
+            </optgroup>
+            <optgroup label="歐洲">
+              <option value="歐洲01">德國</option>
+              <option value="歐洲02">英國</option>
+              <option value="歐洲03">瑞士</option>
+            </optgroup>
+            <optgroup label="美洲">
+              <option value="美洲01">美國</option>
+            </optgroup>
+            <optgroup label="南極洲">
+              <option value="南極洲01">南極</option>
+            </optgroup>
+            <option value="家">還是在家好-3-</option>
+          </select>
         </div>
+        <button type="submit">提交</button>
+        <button type="reset">清除表單</button>
       </form>
     </main>
     <footer>
-      <button type="submit">提交</button>
-      <button type="reset">清除表單</button>
       <p>請勿利用 Google 表單送出密碼。</p>
       <span>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。-</span
       ><a href="#">聯絡表單擁有者</a>
