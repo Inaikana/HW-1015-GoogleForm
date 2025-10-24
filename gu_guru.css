@@ -72,5 +72,19 @@ input {
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 1, soild, #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+input:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #673ab7;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  outline: none;
 }
