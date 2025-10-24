@@ -13,16 +13,27 @@
           <h1 class="hidari">F2E03 表單練習</h1>
           <p class="hidari">僅供新尖兵 F2E03 表單切版練習作業</p>
           <hr />
-          <span class="hidari">me-ru@gmail.com</span>
-          <a
-            href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3Dzh_TW%26zx%3D1757387869143%26no_sw_cr%3D1&dsh=S-2144758175%3A1761095731631065&ec=futura_exp_og_so_72776762_e&hl=zh-TW&ifkv=AfYwgwWe4DMQviGv4W7x2YsIFBH-LW2vOMSzxbe46XRzngbetYGxr0WaywyNcjNyRXOqvUp2OxZNQQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-          >
-            切換帳戶
-          </a>
-          <!-- 這要有icon 雲打勾 -->
+          <div class="words-kumo">
+            <span>
+              <span class="hidari gore-">me-ru@gmail.com</span>
+
+              <a
+                href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3Dzh_TW%26zx%3D1757387869143%26no_sw_cr%3D1&dsh=S-2144758175%3A1761095731631065&ec=futura_exp_og_so_72776762_e&hl=zh-TW&ifkv=AfYwgwWe4DMQviGv4W7x2YsIFBH-LW2vOMSzxbe46XRzngbetYGxr0WaywyNcjNyRXOqvUp2OxZNQQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+              >
+                切換帳戶
+              </a>
+            </span>
+
+            <img src="圖片/kumo.svg" alt="x icon" id="ic-kumo" />
+          </div>
           <br />
-          <!-- 這要有icon 信打叉 -->
-          <span class="hidari">未共用的項目</span>
+          <img
+            src="圖片/tegami.svg"
+            alt="x icon"
+            id="ic-tegami"
+            class="hidari"
+          />
+          <span class="gore-">未共用的項目</span>
           <hr />
           <p class="need-red hidari">* 表示必填問題</p>
         </div>
@@ -53,7 +64,7 @@
           </div>
           <div class="ka-do">
             <label for="DJB">生日</label><br />
-            <p class="gore-">日期</p>
+            <p id="chiisai">日期</p>
             <input type="date" name="DJB" id="DJB" autocomplete="off" />
           </div>
           <div class="ka-do">

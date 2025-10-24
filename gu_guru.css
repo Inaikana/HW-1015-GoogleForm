@@ -38,7 +38,7 @@ h1 {
   color: #e30202;
 }
 
-.gore- {
+#chiisai {
   font-size: 11px;
   color: #9ea3a5;
 }
@@ -96,4 +96,30 @@ input:focus {
   padding-top: 20px;
   padding-bottom: 4px;
   outline: none;
+}
+
+#ic-kumo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 24px;
+  opacity: 0.6;
+}
+
+.words-kumo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+#ic-tegami {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  opacity: 0.6;
+}
+
+.gore- {
+  color: #656b6f;
 }
