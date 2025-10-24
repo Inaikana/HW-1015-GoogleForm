@@ -7,13 +7,22 @@ body {
   margin: auto;
 }
 
+h1 {
+  font-weight: 350;
+  margin: 12px 0;
+}
+
+.hidari {
+  padding-left: 24px;
+}
+
 .ue {
   background-color: #ffffff;
   margin: 12px 0;
-  padding: 22px 24px 16px;
   border-radius: 8px;
   box-sizing: border-box;
-  border: 1px, solid, #dadce0;
+  border: 1px solid #dadce0;
+  border-top: 10px solid #673ab7;
 }
 
 .ka-do {
