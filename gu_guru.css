@@ -50,6 +50,8 @@ h1 {
 
 #todoku {
   background-color: #673ab7;
+  border: none;
+  border-radius: 4px;
   color: #ffffff;
   box-sizing: border-box;
   width: 76px;
@@ -85,6 +87,18 @@ input {
   padding-left: 0;
   padding-top: 20px;
   padding-bottom: 4px;
+}
+
+#namae {
+  width: 50%;
+}
+
+#me-ru {
+  width: 50%;
+}
+
+#sensei {
+  width: 100%;
 }
 
 input:focus {
