@@ -123,3 +123,13 @@ input:focus {
 .gore- {
   color: #656b6f;
 }
+
+#suki-iro {
+  margin-bottom: -10px;
+  margin-top: -4px;
+}
+
+.label-iro {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
