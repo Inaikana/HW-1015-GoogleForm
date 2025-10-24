@@ -133,3 +133,18 @@ input:focus {
   margin-top: 4px;
   margin-bottom: 4px;
 }
+
+#suki {
+  margin-top: -4px;
+  margin-bottom: -10px;
+}
+
+.label-tabemono {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+#sekai {
+  margin-top: 24px;
+  padding: 12px 16px;
+}
